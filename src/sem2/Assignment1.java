@@ -5,6 +5,8 @@
  */
 package sem2;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Rutul
@@ -12,8 +14,13 @@ package sem2;
 public class Assignment1 {
     public static void main(String[]args)
     {
+        String name;
         System.out.println("Hello Github");
         System.out.println("This is my first assignment");
+        System.out.print("Enter your name here: ");
+        Scanner keyboard = new Scanner(System.in);
+        name = keyboard.nextLine();
+        System.out.printf("Hii %s  Welcome to Github    ",name);
     }
     
 }
